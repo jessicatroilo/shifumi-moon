@@ -1,5 +1,15 @@
 <?php
-
+/**
+ * Condition du jeu Pierre, Papier, Ciseau
+ * 
+ * $choice_user - récuperation des données $_POST selon le choix du joueur
+ * $choices - création d'un tableau pour paramétrer le choix de l'ordinateur
+ * $key int - array_rand choix aléatoire entre les différentes entrées du tableau $choices -
+ * $choice_computer - récupération du choix de l'ordinateur, comparaison avec $key pour récuperer la valeur correspondante du tableau array[key] 
+ * 
+ * Deuxième condition pour les règles du jeux
+ * $result - 3 possibles : win, loose et égalité
+ */
     if (isset ($_POST['choices'])) 
     {    
         $choice_user = $_POST['choices'];
