@@ -10,7 +10,7 @@
         <h1>Shifumi Moon</h1>
     </header>
     <main>
-        <?php include __DIR__ . '/App.php'?>
+        
         <div>
             <form  method="post" action="">
                 <input type="radio" name ="choices" value="Pierre">Pierre</input>
@@ -20,12 +20,8 @@
             </form>
         </div>
         <div> <!--aura un hidden et apparaitra quand le joueur aura cliquez sur envoyer --->
-            <p>choix du joueur : <?= $choice_user; ?></p>
-            <p>choix de l'ordinateur : <?= $choice_computer; ?> </p>
-            <p> Résultat : <?= $result; ?> </p>
-            <button>Recommencer</button> <!-- vider à chaque fois qu'on appuie dessus-->
+        <?php include 'App.php'?>
         </div>
-
     </main>
 </body>
 </html>
