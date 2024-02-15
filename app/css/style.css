@@ -1,0 +1,22 @@
+/** BACKGROUND **/
+#container {
+
+min-height: 100%;
+min-width: 1024px;
+/* On indique un redimensionnement proportionnel */
+width: 100%;
+height: auto;
+/* L'image est positionnée en haut à gauche */
+position: fixed;
+top: 0;
+left: 0;
+/* L'image est positionnée en fond et est centrée */
+background: url("/Projets/shifumi-moon/app/images/moonsun.jpg") no-repeat center;
+
+/* Ajout de la propriété avec les préfixes pour tous les moteurs de rendu */
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
