@@ -1,6 +1,6 @@
 /** BACKGROUND **/
-#container {
-
+#container 
+{
 min-height: 100%;
 min-width: 1024px;
 /* On indique un redimensionnement proportionnel */
@@ -18,5 +18,34 @@ background: url("/Projets/shifumi-moon/app/images/moonsun.jpg") no-repeat center
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
 }
 
+
+/** CHOICE **/
+
+.form__wrapper
+{
+    background-color: white;
+    width: 50em;
+    height: 30em;
+    opacity: 70%;
+    border-radius: 2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form 
+{
+    font-size: xxx-large;
+}
+
+
+/** RESULT **/
+
+/** FOOTER **/
