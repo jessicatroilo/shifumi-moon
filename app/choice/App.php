@@ -12,19 +12,19 @@
  */
     if (isset ($_POST['choices'])) 
     {    
-        $choice_user = $_POST['choices'];
+        $choiceUser = $_POST['choices'];
         $choices = array ("Cristal","Parchemin","Dague");
         $key = array_rand($choices);
-        $choice_computer = $choices[$key];         
+        $choiceComputer = $choices[$key];         
 
-        echo "<div class='result__choice'><p>Ton choix : <span class='test'>$choice_user</span></p>";
-        echo "<p>Choix de Moon : <span class='test'>$choice_computer</span></p></div>";
+        echo "<div class='result__choice'><p>Ton choix : <span class='test'>$choiceUser</span></p>";
+        echo "<p>Choix de Moon : <span class='test'>$choiceComputer</span></p></div>";
 
-        if ($choice_user === "Cristal" && $choice_computer === "Dague" || $choice_user === "Parchemin" && $choice_computer === "Cristal" || $choice_user === "Dague" && $choice_computer === "Parchemin" )
+        if ($choiceUser === "Cristal" && $choiceComputer === "Dague" || $choiceUser === "Parchemin" && $choiceComputer === "Cristal" || $choiceUser === "Dague" && $choiceComputer === "Parchemin" )
         { 
             $result = "Gagné !";
         } 
-        else if ($choice_user ==  $choice_computer)
+        else if ($choiceUser ==  $choiceComputer)
         {
             $result = "Egalité !";
         }

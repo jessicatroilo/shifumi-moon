@@ -59,6 +59,7 @@ align-items: center;
 .form__wrapper
 {
     background: url("/Projets/shifumi-moon/app/images/background-result.jpg") center;
+    position: relative;
     width: 50em;
     height: 31em;
     border-radius: 2em;
