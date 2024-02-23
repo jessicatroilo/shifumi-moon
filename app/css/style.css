@@ -1,3 +1,32 @@
+/** TITLE **/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.title__1 
+{
+    color:#3D6C64;
+    font-weight: 200;
+    font-size: 5em;
+    margin-top: 0.2em;
+    margin-bottom:0;
+    padding-bottom: 0;
+    font-family: 'Italiana', sans-serif;
+}
+
+.title__2 
+{
+    color:#3D6C64;
+    font-weight: 400;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left: 0.1em;
+    font-family: 'Meow Script', sans-serif;
+}
 /** BACKGROUND **/
 #container 
 {
@@ -29,10 +58,9 @@ align-items: center;
 
 .form__wrapper
 {
-    background-color: white;
+    background: url("/Projets/shifumi-moon/app/images/background-result.jpg") center;
     width: 50em;
     height: 30em;
-    opacity: 70%;
     border-radius: 2em;
     display:flex;
     justify-content: center;
@@ -43,6 +71,23 @@ align-items: center;
 .form 
 {
     font-size: xxx-large;
+    color : white;
+}
+
+.form__div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form__label
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.4em;
 }
 
 

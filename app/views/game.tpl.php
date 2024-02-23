@@ -2,7 +2,11 @@
     <div id="container">
         
         <header>
-            <h1>Shifumi Moon</h1>
+            
+            
+            <h1 class="title__1">Shifumi</h1>  
+            <h2 class="title__2">moon</h2>
+    
         </header>
 
         <main>
@@ -10,16 +14,21 @@
             <section>
                 <div class="form__wrapper">
                     <form  class ="form" method="post" action="">
+                        <div class="form__div">
+                            <label class="form__label" for="pierre">Cristal</label>
+                            <input class="form__input" type="radio" id="pierre" name ="choices" value="Cristal"></input>
+                        </div>
 
-                        <label class="form__label" for="pierre">Cristal</label>
-                        <input class="form__input" type="radio" id="pierre" name ="choices" value="Cristal"></input>
+                        <div class="form__div">
+                            <label class="form__label" for="papier">Parchemin</label>
+                            <input class="form__input" type="radio" id="papier" name ="choices" value="Parchemin"></input>
+                        </div>
 
-                        <label class="form__label" for="papier">Parchemin</label>
-                        <input class="form__input" type="radio" id="papier" name ="choices" value="Parchemin"></input>
-
-                        <label class="form__label" for="pierre">Dague</label>
-                        <input class="form__input" type="radio" id="ciseau" name ="choices" value="Dague"></input>
-
+                        <div class="form__div">
+                            <label class="form__label" for="pierre">Dague</label>
+                            <input class="form__input" type="radio" id="ciseau" name ="choices" value="Dague"></input>
+                        </div>
+                        
                         <input class="form__submit"type="submit" value="Jouez"></input>
 
                     </form>

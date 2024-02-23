@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS -->
+    <link type = "text/css" rel="stylesheet" href="app/css/normalize.css">
     <link type = "text/css" rel="stylesheet" href="app/css/style.css">
 
     <!-- Fonts -->
