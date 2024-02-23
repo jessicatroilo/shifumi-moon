@@ -17,23 +17,23 @@
         $key = array_rand($choices);
         $choice_computer = $choices[$key];         
 
-        echo "<p>choix du joueur : $choice_user</p>";
-        echo "<p>choix de l'ordinateur : $choice_computer</p>";
+        echo "<div class='result__choice'><p>Ton choix : <span class='test'>$choice_user</span></p>";
+        echo "<p>Choix de Moon : <span class='test'>$choice_computer</span></p></div>";
 
         if ($choice_user === "Cristal" && $choice_computer === "Dague" || $choice_user === "Parchemin" && $choice_computer === "Cristal" || $choice_user === "Dague" && $choice_computer === "Parchemin" )
         { 
-            $result = "<p> Gagné !<p>";
+            $result = "Gagné !";
         } 
         else if ($choice_user ==  $choice_computer)
         {
-            $result = "<p> Oops, Egalité !<p>";
+            $result = "Egalité !";
         }
         else 
         {
-            $result = "<p> Perdu !<p>";
+            $result = "Perdu !";
         }
 
-        echo "<p> Résultat : $result</p>";
+        echo "<div class='result__point'> Résultat : $result</div>";
 
 
 }
