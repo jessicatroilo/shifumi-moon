@@ -153,3 +153,13 @@ align-items: center;
 }
 
 /** FOOTER **/
+footer{
+    color:#3D6C64; 
+    font-family: 'Italiana', sans-serif;
+    font-weight: 600;
+}
+
+.footer__icon{
+    color:#3D6C64;
+    
+}
