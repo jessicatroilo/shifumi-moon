@@ -16,8 +16,7 @@ J'ai volontairement axé mon choix sur le PHP pou ce projet.
 - [x] 2. - Récupérer les données en POST du choix du joueur via le formulaire
 - [x] 3. - Avoir un html simple et complet
 - [x] 4. - Mettre en place le CSS dans le thème choisie
-- [x] 5. - Respecter les maquettes
-- [x] 6. - Avoir un code clair est lisible et bien rangé
+- [x] 5. - Avoir un code clair est lisible et bien rangé
 
 
 ## 🚀 Soon 
